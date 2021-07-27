@@ -6,7 +6,7 @@ public class EquipmentRegister {
     private String name;
 
     // Constructor for the class
-    protected EquipmentRegister(int code, String name) {
+    public EquipmentRegister(int code, String name) {
         this.code = code;
         this.name = name;
     }
