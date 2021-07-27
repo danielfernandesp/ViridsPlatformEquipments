@@ -1,11 +1,12 @@
 package com.Model;
 
-public class viridsPlatform {
+public class EquipmentRegister {
+
     private int code;
     private String name;
 
     // Constructor for the class
-    public viridsPlatform(int code, String name) {
+    protected EquipmentRegister(int code, String name) {
         this.code = code;
         this.name = name;
     }
