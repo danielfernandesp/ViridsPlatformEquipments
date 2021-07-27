@@ -1,9 +1,11 @@
 package com.Model;
 
+import java.util.Date;
+
 public class EquipmentMeasurer extends EquipmentRegister{
 
     private String name;
-    private String resolution;
+    private Date()
 
     protected EquipmentMeasurer(int code, String name) {
         super(code, name);
