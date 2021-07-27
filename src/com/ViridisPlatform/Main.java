@@ -8,12 +8,12 @@ public class Main {
 
     public static void main(String[] args) {
 
-        System.out.println("|   MENU SELECTION DEMO    |");
-        System.out.println("| Options:                 |");
-        System.out.println("|        1. Option 1: Register Equipment                 |");
-        System.out.println("|        2. Option 2: Search for Registered Equipment    |");
-        System.out.println("|        4. Option 3: List All Registered Equipments     |");
-        System.out.println("|        5. Exit                                         |");
+        System.out.println("|   Welcome to Virids Platform: Register equipment module  |");
+        System.out.println("|   Options:                                               |");
+        System.out.println("|        1. Option 1: Register Equipment                   |");
+        System.out.println("|        2. Option 2: Search for Registered Equipment      |");
+        System.out.println("|        4. Option 3: List All Registered Equipments       |");
+        System.out.println("|        5. Exit                                           |");
         Scanner sc = new Scanner(System.in);
         int swValue = sc.nextInt();
 
@@ -37,8 +37,5 @@ public class Main {
                 System.out.println("Invalid selection");
                 break;
         }
-
-
-
     }
 }
